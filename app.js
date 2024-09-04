@@ -35,7 +35,16 @@ anime
 noBtn.addEventListener("mouseover", () => {
   const randomX = Math.random() * 300 + 50;
   const randomY = Math.random() * 300 + 50;
+  noBtn.textContent = "დაფიქრდი ";
+  noBtn.style.left = randomX + "px";
+  noBtn.style.top = randomY + "px";
+});
+
+noBtn.addEventListener("click", () => {
+  const randomX = Math.random() * 300 + 50;
+  const randomY = Math.random() * 300 + 50;
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+  noBtn.textContent = "დაფიქრდი ";
 });
