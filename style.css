@@ -21,6 +21,9 @@ h1 {
   margin: 25px 10px;
   font-weight: bold;
 }
+.btn:disabled {
+  opacity: 1;
+}
 .btn2:hover {
   background-color: #ff4690;
   border: 2px solid white;
@@ -36,7 +39,7 @@ h1 {
 }
 @media (max-width: 795px) {
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .btn {
     width: 120px;
